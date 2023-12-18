@@ -1,0 +1,46 @@
+/* main */
+main {
+    display: flex; flex-flow: row nowrap;
+}
+/* left */
+main .left {position: relative; margin-right: 21px;}
+main .left .main {}
+main .left .main img {}
+main .left .close {
+    right: 15px; bottom: 15px;
+    position: absolute;
+    background-color: #1e6cb3;
+    border-radius: 3px;
+    color: #fff; font-size: 0.8125rem;
+    ;
+    padding: 5px 8px; margin: 0 auto;
+    display: block;
+}
+/* right */
+main .right {}
+main .right .top {position: relative;}
+main .right .top > a > {}
+main .right .top > a > img {}
+main .right .top .date {
+    position: absolute;
+    right: 20px; top: 14px;
+}
+main .right .top .data {color: #fff;}
+main .right .top .data:nth-child(3) {
+    position: absolute; top: 80px; left: 83px;
+} /*확진자*/
+main .right .top .data:nth-child(4) {
+    position: absolute; top: 80px; right: 88px;
+} /*추가 확진자*/
+main .right .top .data:nth-child(5) {
+    position: absolute; bottom: 55px; left: 62px;
+} /*퇴원*/
+main .right .top .data:nth-child(6) {
+    position: absolute; bottom: 55px; right: 164px;
+} /*추가 퇴원*/
+main .right .top .data:nth-child(7) {
+    position: absolute; bottom: 55px; right: 55px;
+} /*사망*/
+main .right .btm {margin-top: 10px;}
+main .right .btm > a > {}
+main .right .btm > a > img {}
