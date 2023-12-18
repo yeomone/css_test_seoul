@@ -1,0 +1,62 @@
+/* header */
+header {}
+/* nav */
+header nav {
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+}
+header nav .gnb {}
+header nav .gnb > a {
+    font-size: 0.875rem; font-weight: 600;
+    padding: 0 10px;
+}
+header nav .gnb > a > img {width: 110px;}
+header nav .right {}
+header nav .right > a {
+    font-size: 0.875rem; font-weight: 600;
+    padding: 0 10px;
+}
+/* form */
+header .btm {}
+header .btm #search_frm {}
+header .btm #search_frm fieldset {
+    border: none;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+header .btm #search_frm fieldset legend {display: none;}
+header .btm #search_frm fieldset p {}
+header .btm #search_frm fieldset p a {}
+header .btm #search_frm fieldset p a img {}
+header .btm #search_frm fieldset p input {}
+header .btm #search_frm fieldset .search_wrap {
+    border: 3px solid #1e6cb3; width: 370px; height: 47px;
+    display: flex; flex-flow: row nowrap;
+    justify-content: space-between; align-items: center;
+    padding: 13px 21px;
+}
+header .btm #search_frm fieldset .search_wrap #search {
+    border: none;
+}
+header .btm #search_frm fieldset .search_wrap #search::placeholder {color: #1e6cb3;}
+header .btm #search_frm fieldset .search_wrap img {
+    width: 24px;
+}
+header .btm #search_frm fieldset .right {}
+header .btm #search_frm fieldset .right .lang {}
+header .btm #search_frm fieldset .right .lang #select {
+    width: 98px; height: 28px; font-size: 0.8125rem;
+}
+header .btm #search_frm fieldset .right .lang #select option {}
+header .btm #search_frm fieldset .right .lang #go_btn {
+    width: 28px; height: 28px; background-color: #1e6cb3;
+    border: none; color: #fff; font-size: 0.8125rem;
+    margin: 0 auto;
+}
+header .btm #search_frm fieldset .temperature {
+    font-size: 1.5rem; font-weight: 700;
+}
+header .btm #search_frm fieldset .fine_dust {
+    font-size: 0.8125rem;
+}

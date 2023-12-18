@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/common.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="gnb">
+                <a href="#"><img src="./images/sprite/seoul.png" alt="서울특별시"></a>
+                <a href="#">서울소식</a>
+                <a href="#">시민참여</a>
+                <a href="#">분야별정보</a>
+                <a href="#">서울소개</a>
+                <a href="#">부서안내</a>
+                <a href="#">정보공개</a>
+                <a href="#">응답소</a>
+            </div>
+            <div class="right">
+                <a href="#">로그인</a>
+                <a href="#">나의서울</a>
+                <a href="#">전자우편</a>
+            </div>
+        </nav>
+        <div class="btm">
+            <form action="#" method="get" id="search_frm">
+                <fieldset>
+                    <legend>검색양식</legend>
+                        <p>
+                            <a href="#" class="logo"><img src="./images/sprite/logo_black.png" alt="I_SEOUL_U"></a>
+                        </p>
+                        <p class="search_wrap">
+                            <input type="search" name="search" id="search" placeholder="검색어를 입력해 주세요">
+                            <img src="images/sprite/search.png" alt="">
+                        </p>
+                        <div class="right">
+                            <p class="lang">
+                                <select name="select" id="select">
+                                    <option value="eng">ENGLISH</option>
+                                    <option value="japan">Japanese</option>
+                                    <option value="china">Chinese</option>
+                                </select>
+                                <button type="button" id="go_btn">GO</button>
+                            </p>
+                            <p class="temperature">27.5℃</p>
+                        <p class="fine_dust">미세먼지(좋음) 초미세먼지(보통)</p>
+                        </div>
+                </fieldset>
+            </form>
+        </div>
+    </header>
+</body>
+</html>
